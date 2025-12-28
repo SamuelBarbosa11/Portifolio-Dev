@@ -3,3 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --Asap-font-family: "Asap", sans-serif;
+    --Inconsolata-font-family: "Inconsolata", monospace;
+    --Maven-Pro-font-family: "Maven Pro", sans-serif;
+}
