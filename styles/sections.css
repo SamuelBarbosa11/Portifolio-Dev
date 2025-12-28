@@ -1,0 +1,20 @@
+section {
+    max-width: 1366px;
+}
+
+#intro {
+    background-image: url(../assets/image/Background_Intro.png);
+    background-size: cover;
+}
+
+#projects {
+    background-color: var(--gray-400);
+}
+
+#services {
+    background-color: var(--gray-600);
+}
+
+#contact {
+    background-image: url(../assets/image/Background_Contacts.png);
+}
