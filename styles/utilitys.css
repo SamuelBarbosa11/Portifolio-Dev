@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+}
+
+.title-lg {
+    font: var(--title-lg);
+    color: var(--gray-100);
+}
+.title-md {
+    font: var(--title-md);
+}
+.title-sm {
+    font: var(--title-sm);
+}
+.subtitle {
+    font: var(--subtitle);
+    color: var(--gray-200);
+}
+.text-md {
+    font: var(--text-md);
+}
+.text-sm {
+    font: var(--text-sm);
+    color: var(--gray-300);
+}

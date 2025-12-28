@@ -1,20 +1,57 @@
 section {
-    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #intro {
+    height: 750px;
     background-image: url(../assets/image/Background_Intro.png);
     background-size: cover;
+
+    header div {
+        width: 680px;
+        justify-self: center;
+    }
+
+    #ft {
+        position: relative;
+        width: 112px;
+        height: 112px;
+        margin-bottom: 56px;
+
+        img:nth-child(1) {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            object-fit: cover;
+            justify-self: center;
+            align-self: center;
+            border: 2px solid var(--red);
+        }
+        img:nth-child(2) {
+            width: 32px;
+            height: 32px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+    }
 }
 
 #projects {
+    height: 917px;
     background-color: var(--gray-400);
 }
 
 #services {
+    height: 480px;
     background-color: var(--gray-600);
 }
 
 #contact {
+    height: 787px;
     background-image: url(../assets/image/Background_Contacts.png);
 }

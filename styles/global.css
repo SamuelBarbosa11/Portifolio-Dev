@@ -20,10 +20,16 @@
     --gray-400: #292C34;
     --gray-500: #16181D;
     --gray-600: #0D0E11;
+
+    --title-lg: bold 56px/120% var(--Asap-font-family);
+    --title-md: bold 24px/120% var(--Asap-font-family);
+    --title-sm: bold 16px/120% var(--Asap-font-family);
+    --subtitle: normal 20px/120% var(--Inconsolata-font-family);
+    --text-md: normal 16px/140% var(--Maven-Pro-font-family);
+    --text-sm: normal 14px/140% var(--Maven-Pro-font-family);
 }
 
 body {
     width: 100%;
     height: 100vh;
-    margin: auto;
 }
