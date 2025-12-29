@@ -4,6 +4,28 @@ section {
     justify-content: center;
 }
 
+.card {
+    background-color: var(--gray-400);
+    width: 330px;
+    height: 280px;
+    border-radius: 12px;
+    img {
+        width: 306px;
+        height: 156px;
+        border-radius: 12px;
+        justify-self: center;
+        margin-inline: 12px;
+        margin-block: 12px 20px;
+    }
+
+    figcaption {
+        gap: 8px;
+        text-align: start;
+        margin-inline: 12px;
+        margin-bottom: 17px;
+    }
+}
+
 #intro {
     height: 750px;
     background-image: url(../assets/image/Background_Intro.png);
