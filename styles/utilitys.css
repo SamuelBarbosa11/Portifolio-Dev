@@ -18,6 +18,7 @@
 }
 .text-md {
     font: var(--text-md);
+    color: var(--gray-200);
 }
 .text-sm {
     font: var(--text-sm);

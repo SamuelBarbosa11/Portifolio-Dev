@@ -16,11 +16,22 @@ section {
         justify-self: center;
     }
 
+    #introducao {
+        width: 1040px;
+        display: grid;
+
+        img:nth-child(3) {
+            width: 32px;
+            height: 32px;
+            justify-self: center;
+        }
+    }
+
     #ft {
         position: relative;
         width: 112px;
         height: 112px;
-        margin-bottom: 56px;
+        margin-block: 120px 56px;
 
         img:nth-child(1) {
             width: 96px;
@@ -35,15 +46,49 @@ section {
             width: 32px;
             height: 32px;
             position: absolute;
-            bottom: 0px;
-            right: 0px;
+            bottom: 2px;
+            right: 2px;
+        }
+    }
+
+    #apresentacao {
+        text-align: center;
+
+        h1 {
+            margin-block: 8px 20px;
+        }
+
+        span:nth-child(2) {
+            color: var(--red);
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin-block: 80px 94px;
+        gap: 16px;
+
+        li {
+            display: flex;
+            background-color: var(--gray-400);
+            height: 40px;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 50px;
+            img {
+                width: 24px;
+                height: 24px;
+            }
         }
     }
 }
 
 #projects {
     height: 917px;
-    background-color: var(--gray-400);
+    background-color: var(--gray-500);
 }
 
 #services {
