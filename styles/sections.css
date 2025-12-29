@@ -50,6 +50,14 @@ header {
     #box-intro {
         width: 1040px;
         display: grid;
+        justify-items: center;
+
+        header {
+            justify-items: center;
+            div {
+                margin: auto;
+            }
+        }
 
         a {
             width: 32px;
@@ -57,61 +65,61 @@ header {
             justify-self: center;
             margin-bottom: 57px;
         }
-    }
 
-    #ft {
-        position: relative;
-        width: 112px;
-        height: 112px;
-        margin-block: 120px 56px;
-
-        img:nth-child(1) {
-            width: 96px;
-            height: 96px;
-            border-radius: 50%;
-            object-fit: cover;
-            justify-self: center;
-            align-self: center;
-            border: 2px solid var(--red);
+        #ft {
+            position: relative;
+            width: 112px;
+            height: 112px;
+            margin-block: 120px 56px;
+    
+            img:nth-child(1) {
+                width: 96px;
+                height: 96px;
+                border-radius: 50%;
+                object-fit: cover;
+                justify-self: center;
+                align-self: center;
+                border: 2px solid var(--red);
+            }
+            img:nth-child(2) {
+                width: 32px;
+                height: 32px;
+                position: absolute;
+                bottom: 2px;
+                right: 2px;
+            }
         }
-        img:nth-child(2) {
-            width: 32px;
-            height: 32px;
-            position: absolute;
-            bottom: 2px;
-            right: 2px;
+    
+        #apresentacao {
+            text-align: center;
+    
+            h1 {
+                margin-block: 8px 20px;
+            }
         }
-    }
-
-    #apresentacao {
-        text-align: center;
-
-        h1 {
-            margin-block: 8px 20px;
-        }
-    }
-
-    ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: center;
-        margin-block: 80px 94px;
-        gap: 16px;
-
-        li {
+    
+        ul {
+            list-style-type: none;
             display: flex;
-            background-color: var(--gray-400);
-            height: 40px;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 16px;
-            border-radius: 50px;
-            img {
-                width: 24px;
-                height: 24px;
+            margin-block: 80px 94px;
+            gap: 16px;
+    
+            li {
+                display: flex;
+                background-color: var(--gray-400);
+                height: 40px;
+                align-items: center;
+                gap: 8px;
+                padding: 8px 16px;
+                border-radius: 50px;
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
             }
         }
     }
+
 }
 
 #projects {
