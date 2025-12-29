@@ -6,6 +6,10 @@
     display: flex;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
 .title-lg {
     font: var(--title-lg);
     color: var(--gray-100);

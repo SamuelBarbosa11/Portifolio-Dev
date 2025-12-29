@@ -30,7 +30,7 @@ header {
     text-align: center;
 }
 
-#destaque {
+.destaque {
     color: var(--red);
 }
 
@@ -161,4 +161,45 @@ header {
 #contact {
     height: 787px;
     background-image: url(../assets/image/Background_Contacts.png);
+
+    .destaque {
+        color: var(--purple);
+    }
+
+    header {
+        gap: 8px;
+    }
+
+    #box-contact {
+        margin-block: 128px 200px;
+        gap: 48px;
+    }
+
+    .links {
+        gap: 16px;
+        a {
+            width: 400px;
+            background-color: var(--gray-400);
+            border-radius: 8px;
+            text-decoration: none;
+            padding: 20px;
+            gap: 12px;
+
+            align-items: center;
+            
+            h2 {
+               width: 288px;
+            }
+
+            img > {
+                width: 28px;
+                height: 28px;
+            }
+
+            :last-child {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
 }
