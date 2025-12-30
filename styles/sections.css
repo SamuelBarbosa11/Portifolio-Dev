@@ -213,7 +213,7 @@ header {
                 height: 20px;
             }
 
-            #git {
+            #linkdin {
                 width: 28px;
                 height: 28px;
                 background-image: url(../assets/icons/LinkedinLogo.svg);
@@ -222,7 +222,7 @@ header {
 
         a:hover {
             border: 1.5px solid var(--blue);
-            #git {
+            #linkdin {
                 background-image: url(../assets/icons/LinkedinLogoBlue.svg);
             }
         }
