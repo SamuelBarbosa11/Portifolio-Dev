@@ -188,6 +188,7 @@ header {
 
     .links {
         gap: 16px;
+        justify-items: center;
 
         a {
             width: 400px;
