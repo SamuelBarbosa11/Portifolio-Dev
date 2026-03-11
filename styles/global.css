@@ -34,3 +34,11 @@ body {
     height: 100vh;
     background-color: var(--gray-500);
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
